@@ -7,7 +7,7 @@ body{
     color: white;
     margin: 0px;
     /* background-color: green; */
-    background-image: url('../bg.JPG');
+    background-image: url('bg.JPG');
 }
 .left{
     position: absolute;
