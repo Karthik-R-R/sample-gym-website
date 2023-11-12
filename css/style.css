@@ -1,0 +1,111 @@
+
+*
+{
+    font-family: 'Zodiak', serif;
+}
+body{
+    padding: 0px;
+    color: white;
+    margin: 0px;
+    /* background-color: green; */
+    background-image: url('/proj1/img/bg.jpg');
+}
+.left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    border: 2px solid white;
+    height: 125px;
+    
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+    /* border: 2px solid yellow; */
+    
+}
+.right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    
+    /* border: 2px solid darkgreen; */
+}
+.navbar li
+{
+    display: inline-block;
+}
+.navbar li a:active , .navbar li a:hover{
+    text-decoration: underline;
+    color:lightgray;
+    font-size: 14px;
+    padding: 7px;
+}
+.navbar li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.left img{
+    width : 95px;
+
+}
+.left div{
+    text-align: center;
+    line-height: 10px;
+}
+.btn
+{
+    margin: 4px;
+    padding : 4px;
+    background-color: white;
+    border-radius: 7px;
+    display: inline-block;
+    border : 3px solid lightgrey;
+}
+#btn1
+{
+    width : 70px;
+}
+.btn:hover
+{
+    background-color: lightgrey;
+    margin: 4px;
+    padding : 4px;
+    /* background-color: white; */
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+}
+.container
+{
+    border : 2px solid white;
+    border-radius: 11px;
+    width : 32%;
+    display: block;
+    margin : 118px 771px 51px 125px;
+    padding : 10px 15px;
+}
+.form-enp input
+{
+    display: block !important;
+    border: 2px solid grey;
+    margin: 6px 2px;
+    width: 200px;
+    padding: 5px 4px;
+    border-radius: 7px;
+}
+#sub{
+    width: 65px;
+}
+#sub:hover
+{
+    background-color: lightgrey;
+    cursor: pointer;
+}
